@@ -1,0 +1,10 @@
+pandas
+seaborn
+matplotlib
+plotly
+numpy
+scipy
+statsmodels
+wquantiles
+pathlib
+scikit-learn
