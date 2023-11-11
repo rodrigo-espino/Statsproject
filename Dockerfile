@@ -18,4 +18,3 @@ COPY Main_project.ipynb /src/Main_project.ipynb
 COPY Datasets /src/Datasets
 WORKDIR /src
 
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]
