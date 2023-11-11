@@ -1,4 +1,4 @@
-FROM docker.io/python:3.10.13-slim
+FROM docker.io/python:3.9-bookworm
 
 RUN apt-get update && \
     apt upgrade -y && \
