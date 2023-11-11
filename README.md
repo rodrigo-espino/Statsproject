@@ -55,7 +55,7 @@ We suggest to create a Docker Image and run the conteiner
    ```
    or
    ``` sh
-   docker run -it --rm --name bashproject <name-image> /bin/bash 
+   docker run -it --rm --name <name-container> <name-image> /bin/bash 
    ```
 
 ## Contributing
