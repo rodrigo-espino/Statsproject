@@ -14,7 +14,6 @@ COPY requirements.txt /requirements.txt
 RUN pip install -r /requirements.txt
 
 RUN pip install jupyter
-COPY Main_project.ipynb /src/Main_project.ipynb
-COPY Datasets /src/Datasets
+
 WORKDIR /src
 
