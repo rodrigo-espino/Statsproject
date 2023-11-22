@@ -8,3 +8,10 @@ scipy==1.9.3
 statsmodels==0.14.0
 wquantiles==0.6
 scikit-learn==1.1.2
+tensorflow~=2.14.0
+tensorflow-serving-api~=2.14.0  # or tensorflow-serving-api-gpu if gpu
+
+tensorboard~=2.14.1
+tensorboard-plugin-profile~=2.14.0
+tensorflow-datasets~=4.9.3
+tensorflow-hub~=0.15.0
